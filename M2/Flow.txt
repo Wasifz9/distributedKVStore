@@ -1,0 +1,53 @@
+1. Input: 'addNode'
+    - ECS SSHs to start a KVServer process at the specified port and address from the config file
+        - Creates a ZooKeeper node with its server name under /servers
+        - The starting state is 'BOOT'
+        - The ECS server has a watcher for the getChildren
+        - It notices that a new child was created (since state == 'BOOT'):
+            - Subscribes to this new zk node
+    - Gets added to the pending start & active_servers (since we need it for the hash ring)
+2. Input: 'start'
+    - For each server in pendingStart:
+        - Send a 'START' event to the newly created server
+        - Start the copying process from the successor node to the newly created node
+            - Lock the server
+            - COPY the data to the newly created server
+            - Send 'COPY_COMPLETE' event to the ECS indicating that the COPY was complete
+        - After the copying has completed, the successor node will:
+            - Unlock the server
+            - Delete the copied files
+    - If the ECS server receives a 'COPY_COMPLETE' it removes the successor node from its list of movedServers
+    - Once all the moves have happened (we received an equal number of ACK's, which equates to a movedServers
+    count of 0), update the ECS METADATA, since the newly started server(s) are now running and can serve requests
+    - Broadcast the metadata to all the active servers, even the newly added ones (since data might be stale)
+3. Input: 'removeNode'
+    - For the soon-to-deleted server:
+        - Lock the server
+        - COPY the data from the server to the successor server
+        - Once the COPY is complete, delete the files and storage directory
+    - Once completed, the server will shutdown its ZooKeeper instance
+    - The ECS Server will notice the absence of the zk node and will then update its internal METADATA
+    - Then, the ECS Server will broadcast the updated metadata to all the servers
+    - Finally, add that deleted server back to the list of available servers
+
+* To avoid any problems with pendingStarts, we will not allow the user to add any new nodes until after the 
+previously created nodes have been fully started AND any nodes have been removed. 
+We can verify this by ensuring that pendingStart && movedServers == 0
+* Also, no deleting servers while another deletion is happening
+
+- Edge cases:
+    -
+        - We add a server, then we calc its metadata, but don't update OUR internal metadata
+        - We add another server (but don't start the previous server yet) and since the internal metadata is stale
+        there will be a conflict
+        - Solve it only updating the treemap metadata, but not the raw metadata, and recalculating and updating the
+        previously added, but not started nodes (pendingStart) 
+    - While the ECS was busy, requests could come in. What then?
+    - There is a remove AFTER there has been a server added (must update the previously added server?)
+    - What do we do about the data that is already there? Do we move it somewhere upon server start?
+
+Simple to do test cases:
+1. Adding more servers than the limit
+    1.1 Do it all at once first: addNodes 8
+    1.2 Then do it incrementally: addNode, addNode, addNode, ...
+    1.3 Then try combining it: addNodes 6, addNode, addNode

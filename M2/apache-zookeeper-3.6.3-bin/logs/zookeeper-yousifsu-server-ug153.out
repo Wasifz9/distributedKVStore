@@ -1,0 +1,577 @@
+2022-03-02 09:57:00,919 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../conf/zoo.cfg
+2022-03-02 09:57:00,929 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
+2022-03-02 09:57:00,930 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
+2022-03-02 09:57:00,930 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
+2022-03-02 09:57:00,931 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2022-03-02 09:57:00,937 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2022-03-02 09:57:00,937 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2022-03-02 09:57:00,938 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2022-03-02 09:57:00,938 [myid:] - WARN  [main:QuorumPeerMain@138] - Either no config or no quorum defined in config, running in standalone mode
+2022-03-02 09:57:00,943 [myid:] - INFO  [main:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2022-03-02 09:57:00,951 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../conf/zoo.cfg
+2022-03-02 09:57:00,952 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
+2022-03-02 09:57:00,952 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
+2022-03-02 09:57:00,953 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
+2022-03-02 09:57:00,954 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2022-03-02 09:57:00,954 [myid:] - INFO  [main:ZooKeeperServerMain@122] - Starting server
+2022-03-02 09:57:00,976 [myid:] - INFO  [main:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@64c87930
+2022-03-02 09:57:00,982 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2022-03-02 09:57:00,998 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2022-03-02 09:57:00,998 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2022-03-02 09:57:00,999 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2022-03-02 09:57:01,000 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2022-03-02 09:57:01,000 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2022-03-02 09:57:01,001 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2022-03-02 09:57:01,001 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2022-03-02 09:57:01,002 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2022-03-02 09:57:01,003 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2022-03-02 09:57:01,004 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2022-03-02 09:57:01,008 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT
+2022-03-02 09:57:01,008 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=ug153.eecg.toronto.edu
+2022-03-02 09:57:01,009 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=11.0.14
+2022-03-02 09:57:01,009 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Debian
+2022-03-02 09:57:01,010 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64
+2022-03-02 09:57:01,011 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../zookeeper-server/target/classes:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../build/classes:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../zookeeper-server/target/lib/*.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../build/lib/*.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/zookeeper-prometheus-metrics-3.6.3.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/zookeeper-jute-3.6.3.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/zookeeper-3.6.3.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/snappy-java-1.1.7.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/slf4j-log4j12-1.7.25.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/slf4j-api-1.7.25.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/simpleclient_servlet-0.6.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/simpleclient_hotspot-0.6.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/simpleclient_common-0.6.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/simpleclient-0.6.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-transport-native-unix-common-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-transport-native-epoll-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-transport-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-resolver-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-handler-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-common-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-codec-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/netty-buffer-4.1.63.Final.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/metrics-core-3.2.5.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/log4j-1.2.17.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/json-simple-1.1.1.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jline-2.14.6.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-util-ajax-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-util-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-servlet-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-server-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-security-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-io-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jetty-http-9.4.39.v20210325.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jackson-databind-2.10.5.1.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jackson-core-2.10.5.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/jackson-annotations-2.10.5.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/commons-cli-1.2.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../lib/audience-annotations-0.5.0.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../zookeeper-*.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/homes/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin/../conf:
+2022-03-02 09:57:01,011 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2022-03-02 09:57:01,012 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/tmp
+2022-03-02 09:57:01,012 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2022-03-02 09:57:01,013 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Linux
+2022-03-02 09:57:01,013 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2022-03-02 09:57:01,014 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=4.19.0-18-amd64
+2022-03-02 09:57:01,015 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=yousifsu
+2022-03-02 09:57:01,015 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/homes/y/yousifsu
+2022-03-02 09:57:01,016 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/nfs/ug/homes-0/y/yousifsu/ece419/capDB/M2/apache-zookeeper-3.6.3-bin/bin
+2022-03-02 09:57:01,017 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=237MB
+2022-03-02 09:57:01,018 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=1000MB
+2022-03-02 09:57:01,018 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=252MB
+2022-03-02 09:57:01,019 [myid:] - INFO  [main:ZooKeeperServer@129] - zookeeper.enableEagerACLCheck = false
+2022-03-02 09:57:01,019 [myid:] - INFO  [main:ZooKeeperServer@137] - zookeeper.digest.enabled = true
+2022-03-02 09:57:01,020 [myid:] - INFO  [main:ZooKeeperServer@141] - zookeeper.closeSessionTxn.enabled = true
+2022-03-02 09:57:01,021 [myid:] - INFO  [main:ZooKeeperServer@1461] - zookeeper.flushDelay=0
+2022-03-02 09:57:01,021 [myid:] - INFO  [main:ZooKeeperServer@1470] - zookeeper.maxWriteQueuePollTime=0
+2022-03-02 09:57:01,022 [myid:] - INFO  [main:ZooKeeperServer@1479] - zookeeper.maxBatchSize=1000
+2022-03-02 09:57:01,022 [myid:] - INFO  [main:ZooKeeperServer@243] - zookeeper.intBufferStartingSizeBytes = 1024
+2022-03-02 09:57:01,024 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2022-03-02 09:57:01,026 [myid:] - INFO  [main:ZooKeeperServer@1273] - minSessionTimeout set to 4000
+2022-03-02 09:57:01,026 [myid:] - INFO  [main:ZooKeeperServer@1282] - maxSessionTimeout set to 40000
+2022-03-02 09:57:01,029 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2022-03-02 09:57:01,029 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2022-03-02 09:57:01,030 [myid:] - INFO  [main:RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2022-03-02 09:57:01,030 [myid:] - INFO  [main:RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2022-03-02 09:57:01,031 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2022-03-02 09:57:01,031 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2022-03-02 09:57:01,032 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2022-03-02 09:57:01,033 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2022-03-02 09:57:01,035 [myid:] - INFO  [main:ZooKeeperServer@1498] - The max bytes for all large requests are set to 104857600
+2022-03-02 09:57:01,035 [myid:] - INFO  [main:ZooKeeperServer@1512] - The large request threshold is set to -1
+2022-03-02 09:57:01,036 [myid:] - INFO  [main:ZooKeeperServer@339] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /homes/y/yousifsu/ece419/capDB/M2/logs/zookeeper/version-2 snapdir /homes/y/yousifsu/ece419/capDB/M2/logs/zookeeper/version-2
+2022-03-02 09:57:01,082 [myid:] - INFO  [main:Log@169] - Logging initialized @616ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-03-02 09:57:01,158 [myid:] - WARN  [main:ContextHandler@1660] - o.e.j.s.ServletContextHandler@411f53a0{/,null,STOPPED} contextPath ends with /*
+2022-03-02 09:57:01,158 [myid:] - WARN  [main:ContextHandler@1671] - Empty contextPath
+2022-03-02 09:57:01,174 [myid:] - INFO  [main:Server@375] - jetty-9.4.39.v20210325; built: 2021-03-25T14:42:11.471Z; git: 9fc7ca5a922f2a37b84ec9dbc26a5168cee7e667; jvm 11.0.14+9-post-Debian-1deb10u1
+2022-03-02 09:57:01,201 [myid:] - INFO  [main:DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2022-03-02 09:57:01,201 [myid:] - INFO  [main:DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2022-03-02 09:57:01,202 [myid:] - INFO  [main:HouseKeeper@132] - node0 Scavenging every 660000ms
+2022-03-02 09:57:01,205 [myid:] - WARN  [main:ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@411f53a0{/,null,STARTING} has uncovered http methods for path: /*
+2022-03-02 09:57:01,212 [myid:] - INFO  [main:ContextHandler@916] - Started o.e.j.s.ServletContextHandler@411f53a0{/,null,AVAILABLE}
+2022-03-02 09:57:01,223 [myid:] - INFO  [main:AbstractConnector@331] - Started ServerConnector@4567f35d{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-03-02 09:57:01,223 [myid:] - INFO  [main:Server@415] - Started @757ms
+2022-03-02 09:57:01,224 [myid:] - INFO  [main:JettyAdminServer@191] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2022-03-02 09:57:01,228 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2022-03-02 09:57:01,230 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2022-03-02 09:57:01,230 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2022-03-02 09:57:01,232 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:2181
+2022-03-02 09:57:01,262 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2022-03-02 09:57:01,262 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2022-03-02 09:57:01,264 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2022-03-02 09:57:01,264 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2022-03-02 09:57:01,272 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2022-03-02 09:57:01,272 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /homes/y/yousifsu/ece419/capDB/M2/logs/zookeeper/version-2/snapshot.0
+2022-03-02 09:57:01,278 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 13 ms, highest zxid is 0x0, digest is 1371985504
+2022-03-02 09:57:01,279 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /homes/y/yousifsu/ece419/capDB/M2/logs/zookeeper/version-2/snapshot.0
+2022-03-02 09:57:01,281 [myid:] - INFO  [main:ZooKeeperServer@529] - Snapshot taken in 3 ms
+2022-03-02 09:57:01,288 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@136] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2022-03-02 09:57:01,288 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2022-03-02 09:57:01,299 [myid:] - INFO  [main:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2022-03-02 09:57:01,300 [myid:] - INFO  [main:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2022-03-02 10:00:10,830 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2022-03-02 10:01:56,958 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57598, session = 0x1021c1787660000
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:02:00,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660000, timeout of 4000ms exceeded
+2022-03-02 10:08:45,953 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57628, session = 0x1021c1787660002
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:08:50,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660002, timeout of 4000ms exceeded
+2022-03-02 10:10:39,576 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57602, session = 0x1021c1787660001
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:10:44,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660001, timeout of 4000ms exceeded
+2022-03-02 10:30:29,725 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57768, session = 0x1021c1787660004
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:30:34,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660004, timeout of 4000ms exceeded
+2022-03-02 10:30:40,977 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57772, session = 0x1021c1787660005
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:30:46,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660005, timeout of 4000ms exceeded
+2022-03-02 10:39:00,141 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57814, session = 0x1021c1787660006
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:39:04,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660006, timeout of 4000ms exceeded
+2022-03-02 10:47:56,134 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57882, session = 0x1021c1787660008
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:00,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660008, timeout of 4000ms exceeded
+2022-03-02 10:48:12,651 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57818, session = 0x1021c1787660007
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:15,893 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57898, session = 0x1021c1787660009
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:16,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660007, timeout of 4000ms exceeded
+2022-03-02 10:48:20,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660009, timeout of 4000ms exceeded
+2022-03-02 10:48:22,203 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57900, session = 0x1021c178766000a
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:26,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000a, timeout of 4000ms exceeded
+2022-03-02 10:48:40,407 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57918, session = 0x1021c178766000b
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:44,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000b, timeout of 4000ms exceeded
+2022-03-02 10:48:49,722 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57922, session = 0x1021c178766000c
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:48:54,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000c, timeout of 4000ms exceeded
+2022-03-02 10:55:22,191 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57960, session = 0x1021c178766000e
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 10:55:26,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000e, timeout of 4000ms exceeded
+2022-03-02 11:18:36,942 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57956, session = 0x1021c178766000d
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:18:40,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000d, timeout of 4000ms exceeded
+2022-03-02 11:19:17,714 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58132, session = 0x1021c1787660010
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:19:22,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660010, timeout of 4000ms exceeded
+2022-03-02 11:24:41,020 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58128, session = 0x1021c178766000f
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:24:44,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766000f, timeout of 4000ms exceeded
+2022-03-02 11:25:08,814 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58144, session = 0x1021c1787660012
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:25:12,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660012, timeout of 4000ms exceeded
+2022-03-02 11:26:52,217 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58140, session = 0x1021c1787660011
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:26:56,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660011, timeout of 4000ms exceeded
+2022-03-02 11:40:27,011 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58272, session = 0x1021c1787660013
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:40:30,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660013, timeout of 4000ms exceeded
+2022-03-02 11:41:35,871 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58276, session = 0x1021c1787660014
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:41:38,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660014, timeout of 4000ms exceeded
+2022-03-02 11:41:51,853 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58280, session = 0x1021c1787660015
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:41:56,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660015, timeout of 4000ms exceeded
+2022-03-02 11:42:23,010 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58284, session = 0x1021c1787660016
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:42:26,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660016, timeout of 4000ms exceeded
+2022-03-02 11:43:09,734 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58286, session = 0x1021c1787660017
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:43:14,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660017, timeout of 4000ms exceeded
+2022-03-02 11:43:37,220 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58292, session = 0x1021c1787660018
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:43:42,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660018, timeout of 4000ms exceeded
+2022-03-02 11:46:15,249 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58302, session = 0x1021c1787660019
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:46:18,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660019, timeout of 4000ms exceeded
+2022-03-02 11:46:32,766 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58306, session = 0x1021c178766001a
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:46:36,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001a, timeout of 4000ms exceeded
+2022-03-02 11:53:10,481 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58316, session = 0x1021c178766001b
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:53:14,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001b, timeout of 4000ms exceeded
+2022-03-02 11:53:22,310 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58320, session = 0x1021c178766001c
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:53:26,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001c, timeout of 4000ms exceeded
+2022-03-02 11:57:14,354 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58416, session = 0x1021c178766001d
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:57:18,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001d, timeout of 4000ms exceeded
+2022-03-02 11:57:23,754 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58420, session = 0x1021c178766001e
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 11:57:28,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001e, timeout of 4000ms exceeded
+2022-03-02 12:16:21,708 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58572, session = 0x1021c178766001f
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:16:26,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766001f, timeout of 4000ms exceeded
+2022-03-02 12:16:33,941 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58576, session = 0x1021c1787660020
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:16:38,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660020, timeout of 4000ms exceeded
+2022-03-02 12:19:44,283 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58590, session = 0x1021c1787660021
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:19:48,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660021, timeout of 4000ms exceeded
+2022-03-02 12:19:54,336 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58594, session = 0x1021c1787660022
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:19:58,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660022, timeout of 4000ms exceeded
+2022-03-02 12:34:09,013 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58710, session = 0x1021c1787660023
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:34:12,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660023, timeout of 4000ms exceeded
+2022-03-02 12:34:21,445 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58714, session = 0x1021c1787660024
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:34:26,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660024, timeout of 4000ms exceeded
+2022-03-02 12:35:38,705 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58718, session = 0x1021c1787660025
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:35:42,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660025, timeout of 4000ms exceeded
+2022-03-02 12:36:54,641 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58722, session = 0x1021c1787660026
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:36:58,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660026, timeout of 4000ms exceeded
+2022-03-02 12:47:04,380 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58776, session = 0x1021c1787660027
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:47:08,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660027, timeout of 4000ms exceeded
+2022-03-02 12:47:15,889 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58780, session = 0x1021c1787660028
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 12:47:20,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660028, timeout of 4000ms exceeded
+2022-03-02 13:22:39,189 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57632, session = 0x1021c1787660003
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:23:06,653 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660003, timeout of 30000ms exceeded
+2022-03-02 13:33:04,371 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59244, session = 0x1021c178766002a
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:33:08,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002a, timeout of 4000ms exceeded
+2022-03-02 13:33:45,668 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59370, session = 0x1021c178766002b
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:33:50,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002b, timeout of 4000ms exceeded
+2022-03-02 13:34:56,370 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59398, session = 0x1021c178766002c
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:35:00,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002c, timeout of 4000ms exceeded
+2022-03-02 13:41:56,456 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59404, session = 0x1021c178766002d
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:42:00,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002d, timeout of 4000ms exceeded
+2022-03-02 13:42:36,415 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59422, session = 0x1021c178766002e
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:42:40,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002e, timeout of 4000ms exceeded
+2022-03-02 13:48:35,789 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60300, session = 0x1021c178766002f
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:48:40,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c178766002f, timeout of 4000ms exceeded
+2022-03-02 13:48:54,255 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60322, session = 0x1021c1787660030
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-03-02 13:48:58,652 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1021c1787660030, timeout of 4000ms exceeded
